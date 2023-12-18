@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Counter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js" defer></script>
+</head>
+
+<body>
+    <div x-data="{ points: 0 }">
+        <div class="title">
+            This is built with <a href="https://alpinejs.dev/" id="title">Alpine.js</a>
+        </div>
+
+        <div id="app">
+            <h1 x-text="'Value: ' + points"></h1>
+            <button @click="points++" class="increment-button">Increment</button>
+            <button @click="points--" class="decrement-button">Decrement</button>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+body {
+    background: black;
+    color: darkorange;
+    font-family: arial;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    padding: 35px;
+}
+
+#app {
+    background: rgba(255, 156, 0, 0.1); 
+    padding: 0 10px 20px 10px; 
+    width: 250px; 
+    text-align: center; 
+    border: 1px solid orange; 
+    margin: 0 auto;
+}
+
+#title {
+    color: #fff; 
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background: orange;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: arial;
+}
+
+pre {
+    font-size: 15px
+}
+
+/* Style for Increment Button */
+.increment-button {
+    background-color: #4caf50; /* Green */
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Style for Decrement Button */
+.decrement-button {
+    background-color: #f44336; /* Red */
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
